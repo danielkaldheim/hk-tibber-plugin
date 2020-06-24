@@ -7,7 +7,6 @@
   "main": "pages/Tibber.tsx",
   "dependencies": {
     "@apollo/react-hooks": "^3.1.5",
-    "apollo": "^2.28.3",
     "apollo-client": "^2.6.10",
     "graphql": "^15.1.0"
   },
