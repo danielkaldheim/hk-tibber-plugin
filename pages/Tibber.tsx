@@ -1,7 +1,7 @@
 import React from 'react';
 import TibberProvider from '../TibberProvider';
 import { H1, View, Container } from 'native-base';
-import SetupTibber from './SetupTibber';
+import SetupTibber from '../components/SetupTibber';
 import { StyleSheet } from 'react-native';
 import { typography } from 'styles';
 import TibberLogo from '../assets/TibberLogo';
