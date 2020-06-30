@@ -1,7 +1,7 @@
-import React from 'react';
-import { View, Text } from 'native-base';
+import React, { useEffect } from 'react';
 import { StyleSheet } from 'react-native';
-import { typography } from 'styles';
+import TibberProvider from '../TibberProvider';
+import TibberLiveConsumption from '../components/TibberLiveConsumption';
 
 const styles = StyleSheet.create({
   // text: {
@@ -24,10 +24,14 @@ const styles = StyleSheet.create({
 });
 
 const LiveMeasurementCard = (): JSX.Element => {
+  // useEffect(() => {
+  //   console.log('LiveMeasurementCard');
+  // }, []);
+
   return (
-    <View>
-      <Text style={typography.textWhite}>Live measurements</Text>
-    </View>
+    <TibberProvider>
+      <TibberLiveConsumption />
+    </TibberProvider>
   );
 };
 export default LiveMeasurementCard;

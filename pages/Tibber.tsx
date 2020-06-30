@@ -1,10 +1,11 @@
-import React from 'react';
-import TibberProvider from '../TibberProvider';
+import React, { useEffect } from 'react';
+import TibberProvider, { useTibber } from '../TibberProvider';
 import { H1, View, Container } from 'native-base';
 import SetupTibber from '../components/SetupTibber';
 import { StyleSheet } from 'react-native';
 import { typography } from 'styles';
 import TibberLogo from '../assets/TibberLogo';
+import TibberLiveConsumption from '../components/TibberLiveConsumption';
 
 const styles = StyleSheet.create({
   title: {
@@ -21,6 +22,7 @@ const Tibber = (): JSX.Element => {
           <View style={{ marginBottom: 20 }}>
             <TibberLogo />
           </View>
+          <TibberLiveConsumption />
           <SetupTibber />
         </View>
       </Container>
