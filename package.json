@@ -15,7 +15,8 @@
     "apollo-link-ws": "^1.0.20",
     "graphql": "^15.1.0",
     "graphql-tag": "^2.10.3",
-    "subscriptions-transport-ws": "^0.9.16"
+    "subscriptions-transport-ws": "^0.9.16",
+    "lodash": "^4.17.20"
   },
   "plugin": {
     "name": "Tibber",
