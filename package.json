@@ -19,7 +19,7 @@
   },
   "plugin": {
     "name": "Tibber",
-    "icon": "",
+    "icon": "https://tibber.com/no/static/favicon.png",
     "description": "Koble til Tibber konto for å lese ut ditt forbruk fra Tibber HAN komponent"
   }
 }
